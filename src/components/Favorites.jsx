@@ -19,7 +19,7 @@ const Favorites = ({myFavorites}) => {
                 }
         </div> 
         )
-}
+};
 
 const mapStateToProps = (state) => {
     return {
