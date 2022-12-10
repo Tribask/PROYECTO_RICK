@@ -1,0 +1,79 @@
+@font-face {
+    font-family: rick;
+    src: url('../assets/MISFITS-font.ttf');
+}
+
+.card {
+    margin-top: 10em;
+    margin-right: 3em;
+    background-color: rgb(212, 214, 202);
+    background-size: cover;
+    border: solid purple;
+    border-radius: 2em;
+    font-family: rick;
+    
+}
+
+.card img {
+    width: 95%;
+    transform: translateY(-62%);
+    top: 50%;
+    border: solid green;
+    border-radius: 3em;
+}
+
+.card:hover img{
+  transform: translateY(0%);
+  visibility: visible;
+  opacity: 0.5;
+  
+}
+.card h2 {
+  color: #370617;
+}
+
+.card button {
+  border: #203832 solid;
+  border-radius: 0.5em;
+  margin: 0.5em;
+}
+
+.card button:hover {
+  background-color: #ffd60a;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+/* .card img {
+    top: 50%;
+    transform: translateY(-55%);
+    z-index: 10000;
+    width: 100%;
+    transition: 0.5s;
+  } */
+
+/* .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.card::after {
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+}
+
+  
+  .card:hover img {
+    top: 0%;
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+   */

@@ -1,0 +1,22 @@
+.search {
+    /* border: solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1em;
+    margin-right: 1em;
+}
+
+.search input{
+    margin-right: 1em;
+    height: 2em;
+}
+
+.search button{
+    font-size: 18px;
+    background-color: rgb(181, 233, 84);
+}
+
+.search button:hover {
+    zoom: 120%
+}
