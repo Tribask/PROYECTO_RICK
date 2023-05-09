@@ -1,6 +1,13 @@
+@font-face {
+    font-family: rick;
+    src: url('../assets/MISFITS-font.ttf');
+}
+
 .user {
-    font-size: 2em;
+    font-size: 4em;
     font-weight: bold;
+    color: greenyellow;
+    font-family: rick;
     padding: 0.5em;
     text-decoration: underline;
 
@@ -15,6 +22,20 @@
 }
 
 .iname {
-    height: 2em;
+    height: 4em;
+    width: 20em;
+    border-radius: 10px;
+    margin-bottom: 50px;
     
+}
+
+.buttons button {
+    font-family: rick;
+    font-size: 3em;
+    width: 5em;
+    color: brown;
+    border-radius: 10px;
+    margin-top: 1em;
+    border: 1px solid yellow;
+
 }

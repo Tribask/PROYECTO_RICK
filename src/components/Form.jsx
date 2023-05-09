@@ -31,17 +31,20 @@ export default function Form(props){
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <div >
+                <div className={styles.labelU}>
                     <label className={styles.user}>Username:</label>
                     <input onChange={handleInputChange} type='text' placeholder="ejemplo@gmail.com" name="username" value={userData.username} className={styles.iname} />
                     <p className={styles.error}>{errors.username}</p>
                 </div>
-                <div>
+                <div className={styles.labelP}>
                     <label className={styles.user}>Password:</label>
                     <input onChange={handleInputChange} value={userData.password} type='password' placeholder="1password" name='password' className={styles.iname} />
                     <p className={styles.error}>{errors.password}</p>
                 </div>
-                <button type='submit'> LOGIN </button>
+                <div className={styles.buttons}>
+                    <button type='submit'> LOGIN </button>
+
+                </div>
             </form>
         </div>
         )
