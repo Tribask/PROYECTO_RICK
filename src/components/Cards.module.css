@@ -1,7 +1,6 @@
 .rick {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid rgb(171, 218, 64);
     justify-content: center;
     align-items: center;
     width: 100vw;

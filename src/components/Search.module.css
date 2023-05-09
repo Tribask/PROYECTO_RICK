@@ -10,6 +10,7 @@
 .search input{
     margin-right: 1em;
     height: 2em;
+    width: 10em;
 }
 
 .search button{

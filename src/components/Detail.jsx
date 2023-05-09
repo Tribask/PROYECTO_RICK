@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState} from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import styles from './Detail.module.css'
 
 export default function Detail(props){
     const {detailId}=useParams();
@@ -26,7 +27,7 @@ export default function Detail(props){
      console.log(character)
 
      return (
-        <div>
+        <div className={styles.info}>
             <button onClick={()=>navigate('/home')}>VOLVER</button>
             <h1>NOMBRE: {character.name}</h1>
             <h2>STATUS: {character.status}</h2>

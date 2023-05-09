@@ -10,7 +10,7 @@ export default function SearchBar({onSearch}) {
    
    return (
       <div className={styles.search}>
-         <input type='search' onChange={changeHandler}/>
+         <input type='search' onChange={changeHandler} placeholder='insert a number'/>
       <button onClick={()=>onSearch(searchInput)}>Agregar</button>
       </div>
    );

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: rick;
+    src: url('../assets/MISFITS-font.ttf');
+}
+
+.info {
+    color: greenyellow;
+    font-family: rick;
+    font-size: 25px;
+}
